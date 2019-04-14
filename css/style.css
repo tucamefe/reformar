@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+  }
+
+body {
+    color: #FCFFDB;
+    transition: all 150ms ease;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+    display:flex;
+  align-items: center;
+    justify-content: center;
+}
+
+.menu a {
+    color: #6dc8bf;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 110%;
+    margin: 10px;
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+}
+
+header.cabecalho {
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 56px);
+  background-position: center center;
+  background-size: cover;
+}
+
+.box-cabecalho {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-cabecalho .imagem-logo {
+    width: 50%; /* 1440px - 548px*/
+    height: 50%; /* 1440px - 335px */
+}
+
+#sobre {
+    padding: 100px;
+
+}
+
+#sobre h2 {
+    color: #f15a22;
+}
+
+.box-sobre {
+    /*text-align: center;
+    margin-right: 40px;*/
+}
+
+.box-texto {
+    background: #ffffff ;
+    /*position: relative;*/
+    background-size: cover;
+    /*text-align: left;*/
+    float: right;
+    width: 60%;
+}
+
+.box-equipe {
+    float: left;
+    position: absolute;
+    z-index: -1;
+}
+
+.box-equipe img {
+   /* width: 548px;
+    height: 335px;*/
+    width: 50%;
+    height: 40%;
+}
+
+#portfolio {
+    height: 100%;
+    
+    margin-top: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#saiba-link {
+    background-color: rgb(255, 255, 204, 0.9);
+    text-align: center;
+    border-radius: 8px;
+    padding: 8px;
+}
+
+p {
+    color: #362E2A;
+}
+
+.flexing {
+    flex-wrap: wrap;
+}
+
+
+
+
